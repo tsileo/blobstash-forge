@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Admin - BlobStash</title>
+    <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
+    {{ template "head" . }}
+
+<style>
+  body {
+    padding: 0 10px;
+  }
+  dt {
+    float: left;
+    clear: left;
+    width: 140px;
+    text-align: left;
+    font-weight: bold;
+  }
+  dl dd {
+    margin: 0 0 5px 110px;
+  }
+  code a { color: #d73e48; }
+  code a:visited { color: #d73e48; }
+  code a:hover { text-decoration: none; }
+  h1 a, h1 a:visited, h1 a:hover {
+    color: #3B4351;
+    text-decoration: none;
+  }
+</style>
+
+  </head>
+  <body>
+
+<div class="container">
+<div class="columns col-oneline">
+    <div class="column col-12">
+<div style="margin:10px 0;max-width: 1200px;">
+
+    {{ template "main" . }}
+
+
+</div>
+	</div>
+</div>
+</div>
+
+  </body>
+</html>
